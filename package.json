@@ -1,0 +1,24 @@
+{
+  "name": "functions-426",
+  "version": "1.0.0",
+  "description": "a02 for 426",
+  "main": "galosh.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comp426-2023-spring/a02-functions-amin-codes.git"
+  },
+  "author": "amin-codes",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.3.1"
+  }
+}
